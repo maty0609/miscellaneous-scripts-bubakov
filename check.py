@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
-import shlex, subprocess, smtplib, string;
+import shlex;
+import subprocess;
+import smtplib;
+import string;
 
 HOST = "mail.bubakov.czf"
 SUBJECT = "ALERT: Faulty drive ESXi"
